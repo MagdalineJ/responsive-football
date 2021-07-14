@@ -2,22 +2,64 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+
 }
 /*..... styling first section......*/
 
 .first{
     background-color: rgb(52, 52, 163);
 }
-.header {
-    display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-
-position: absolute;
-width: 1162px;
-height: 44px;
-left: 156px;
-top: 42px;
-
+ header{
+    display:flex;
+    justify-content: space-between;
+    font-size:16px ;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    color:white;
+    font-weight: 500;
+    margin:48px 180px 98px;
+    width:1200px;
 }
+.header{
+    display:flex;
+} 
+
+
+.menus{
+    margin-right: 20px;
+}
+    
+    
+    header a{
+        background-color: #E02C6D;
+        color: #FFFFFF;
+        text-decoration:none;
+        padding: 10px;
+
+    }
+
+    article {
+        width: 2200px;
+        height:500px;
+     background-image:url(images/banner.png) ;
+     background-repeat: no-repeat;
+     background-position: top;
+   
+    }
+    .article h1{
+        margin-left:150px;
+        font-weight: 700px;
+        font-size:64px;
+        color:white;
+        line-height: 80px;
+       width: 500px;
+    }
+    article a {
+        background-color: #E02C6D;
+        color: #FFFFFF;
+        text-decoration:none;
+        padding: 10px;
+        margin-left: 170px;
+    }
+    /* ......first section done...... */
