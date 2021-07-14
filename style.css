@@ -96,28 +96,15 @@ body{
          box-shadow: 0px 0px 40px 0px #00000026;
         text-align: center;
     }
-    .borders:hover{
-        border:2px solid lightseagreen ;
-        
-    }
+    
+    
     /* start of highlights*/
     .details{
         display:grid;
         grid-template-columns: repeat(2,1fr);
-        grid-gap:00px;  
+        grid-gap:10px;
+       align-items: center;  
     }
-    /*.highlights{
-        text-align: center;
-       display:grid;
-       grid-template-rows: repeat (3,1fr);
-      line-height:60px;
-       width:350px;
-       height: 150px;
-        align-items:center;
-        margin-left: 300px;
-border:1px solid black;
-
-    }*/
     .highlights{
         display: flex;
 flex-direction: column;
@@ -199,6 +186,8 @@ margin: 24px 150px;
     padding:20px;
     
 }
+
+
 /* ......footer....... */
 footer{
     border:1px solid white;
@@ -213,4 +202,93 @@ footer{
 .copyright{
     color:black;
     font-size:18px;
+}
+
+
+/* making website responsive for mobile devices*/
+@media only screen and ( max-width:640px)  {
+    
+    header{
+        width:350px;
+        
+    }
+    .header {
+        display:inline;
+        text-align:left;
+        margin:0;
+    }
+    header{
+        display:inline;
+        text-align:left;
+        margin:10px;
+    }
+    .article{ display:inline;
+      
+        width:350px;
+    }
+    .article h1{
+        font-size: 44px;
+        width:350px;
+        line-height:50px;
+        text-align:left;
+        margin:10px;
+    }
+    article{
+    display:inline;
+
+     text-align:left;}
+     article a{
+         margin:10px}
+         
+          .rotate{
+              width:150px;
+              height:200px;
+          }
+          main {
+              display:inline;
+            grid-template-rows:repeat(12,1fr);
+            justify-content:space-between;
+              align-items:column;
+              margin:50px 0;
+          }
+          .borders{
+            display:inline;
+        }
+        .details{
+            display:inline;
+            margin-left:10px;
+            text-align:left;
+            width:300px;
+        }
+        .highlights{
+            display:inline;
+            margin:10px;
+            width:100px;
+        }
+        .messi{
+            width:300px;
+            margin-top:20px;
+            
+        }
+          .scores{
+              margin:80px;
+            width:150px;
+        }
+        .buying-info{
+            margin:80px;
+            width:150px;
+        }
+       .player{
+        display:inline;
+        grid-template-rows:repeat(3,1fr);
+        justify-content:space-between;
+          align-items:column;
+        
+          margin:50px 0;
+       }
+    
+       footer  {
+          margin:0px;
+           font-size:24px;
+       }
 }
