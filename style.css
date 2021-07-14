@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*..... styling first section......*/
+
+.first{
+    background-color: rgb(52, 52, 163);
+}
+.header {
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 1162px;
+height: 44px;
+left: 156px;
+top: 42px;
+
+}
