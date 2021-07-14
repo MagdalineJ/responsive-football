@@ -49,13 +49,17 @@ body{
     
       }
     .rotate:hover{
-      transform: scale(1.2) rotate(20deg);
+      transform:  rotate(20deg);
       position: relative;
-      transition:3s;
-      transform-origin:top;
+      transition:2s;
+      transform-origin:right;
      transition-timing-function: ease-in-out;
 
      }
+     .rotate{transform-origin: right;
+    position:relative;
+    transition:2s;
+    transform:scale(1) }
 
     .article h1{
         margin-left:150px;
@@ -130,7 +134,7 @@ height: 241px;
 flex: none;
 order: 0;
 flex-grow: 0;
-margin: 24px 200px;
+margin: 24px 150px;
     }
 .highlights h2{
     font-size: 48px;
@@ -146,4 +150,67 @@ margin: 24px 200px;
     text-decoration:none;
     background-color:  #E02C6D;
     padding:10px;
+}
+/* ......ending of highlights  */
+/* scores */
+.scores{
+    text-align: center;
+     box-shadow: 0px 0px 40px 0px #00000026;
+     width:400px;
+     margin-left:35%;
+     margin-top: 80px;
+     margin-bottom:50px;
+     padding:10px;
+}
+
+
+.scores a{
+  text-decoration: none;
+  color:white;
+  background-color: indianred;
+  padding:5px;
+}
+/* buyding info */
+.buying-info{
+    text-align: center;
+    margin-bottom:80px;
+    margin-left:35%;
+    width:400px;
+    box-shadow: 0px 0px 40px 0px #00000026;
+    padding:10px;
+    
+}
+.buying-info a{
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+    background-color: indianred;
+    padding:5px;
+}
+.player{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    grid-gap:10px;
+    margin:80px;
+    text-align:center;}
+    .players{
+    box-shadow: 0px 0px 40px 0px #00000026;
+    padding:20px;
+    
+}
+/* ......footer....... */
+footer{
+    border:1px solid white;
+    box-shadow: 0px 0px 40px 0px #00000026;
+    padding: 20px;
+    margin:100px 300px;
+    color:gray;
+    font-size:48px;
+    line-height: 5px;
+    text-align: center;
+}
+.copyright{
+    color:black;
+    font-size:18px;
 }
